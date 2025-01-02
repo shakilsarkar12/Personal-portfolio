@@ -3,6 +3,9 @@ const logolinks = document.querySelector('.logo');
 const sections = document.querySelectorAll('section');
 const menuIcon = document.querySelector('#menu-icon')
 const navbar = document.querySelector('header nav')
+const navContact = document.querySelector("#contact-page")
+
+document.querySelector("#hire-btn").addEventListener("click", ()=>  navContact.click());
 
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
